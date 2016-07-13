@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3731BC5F00FCA0C97171D86C45C8554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D1342E4C5529000FDAE9CE7A76E382E4 /* Pods-陀螺仪Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 837AEEE346724C1F043A3B38C15D9ADB /* Pods-陀螺仪Demo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		190A7FA90C25616DE0A20A64004B6328 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		261D2485B526B87C9406024BF0736A6B /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		2D1C464FFE1253B3B4BC31B6308AF6FA /* Pods-陀螺仪Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-陀螺仪Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		56A1B3C0C14C9A7405BF4F13B158397A /* Pods-陀螺仪Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-陀螺仪Demo-resources.sh"; sourceTree = "<group>"; };
+		5F59F0E183C36EA2A31700624FF78789 /* Pods-陀螺仪Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-陀螺仪Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		61F656587BC9AD7AEFB8835206E02120 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		6A43007ECA2A2BEF4D2A87FE9E6DDA57 /* Pods-陀螺仪Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-陀螺仪Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F8FCFBE61CCFDAF8827CB5F5B6A00F9 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Radar.framework; path = BaiduMapKit/BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		7CDA16D6DA37BE4B2BEBF957ECC23AD0 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Location.framework; path = BaiduMapKit/BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		837AEEE346724C1F043A3B38C15D9ADB /* Pods-陀螺仪Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-陀螺仪Demo-dummy.m"; sourceTree = "<group>"; };
+		878D7B9D69AEF0D7D939A9810240FBA1 /* libPods-陀螺仪Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-陀螺仪Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABABF43BEA885365BA896FB465F73845 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		B71BB7A8AA5E3007A0FD075963E61ECC /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
+		B8BA5F6CC6D3B9C7FAFE212B5199D30A /* Pods-陀螺仪Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-陀螺仪Demo.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9C61F512AA594EC90D64780F594EC12 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		DDD8D6465E5CF5064891947038523761 /* Pods-陀螺仪Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-陀螺仪Demo-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		343E7463DD51EBE7EFE3242F8E3AC9D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3731BC5F00FCA0C97171D86C45C8554 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF51B2B7B8848B0E625164A90C5DC6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878D7B9D69AEF0D7D939A9810240FBA1 /* libPods-陀螺仪Demo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		50F18EBF1BEC6C9EF624D374BC39DD50 /* Pods-陀螺仪Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6A43007ECA2A2BEF4D2A87FE9E6DDA57 /* Pods-陀螺仪Demo-acknowledgements.markdown */,
+				5F59F0E183C36EA2A31700624FF78789 /* Pods-陀螺仪Demo-acknowledgements.plist */,
+				837AEEE346724C1F043A3B38C15D9ADB /* Pods-陀螺仪Demo-dummy.m */,
+				DDD8D6465E5CF5064891947038523761 /* Pods-陀螺仪Demo-frameworks.sh */,
+				56A1B3C0C14C9A7405BF4F13B158397A /* Pods-陀螺仪Demo-resources.sh */,
+				2D1C464FFE1253B3B4BC31B6308AF6FA /* Pods-陀螺仪Demo.debug.xcconfig */,
+				B8BA5F6CC6D3B9C7FAFE212B5199D30A /* Pods-陀螺仪Demo.release.xcconfig */,
+			);
+			name = "Pods-陀螺仪Demo";
+			path = "Target Support Files/Pods-陀螺仪Demo";
+			sourceTree = "<group>";
+		};
+		53909EDF420C563C4C2D18C47335DE37 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F18EBF1BEC6C9EF624D374BC39DD50 /* Pods-陀螺仪Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		56796AAF4F5802B6524EF0DDE24CB231 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B71BB7A8AA5E3007A0FD075963E61ECC /* mapapi.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		77F83023C1B4EBA551726037F84301C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA3F609DED53AEBA8E7CFECEDAB186 /* BaiduMapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				77F83023C1B4EBA551726037F84301C2 /* Pods */,
+				2AF51B2B7B8848B0E625164A90C5DC6F /* Products */,
+				53909EDF420C563C4C2D18C47335DE37 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C715454BC1A7A1E415D54F199E73007D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61F656587BC9AD7AEFB8835206E02120 /* BaiduMapAPI_Base.framework */,
+				D9C61F512AA594EC90D64780F594EC12 /* BaiduMapAPI_Cloud.framework */,
+				7CDA16D6DA37BE4B2BEBF957ECC23AD0 /* BaiduMapAPI_Location.framework */,
+				190A7FA90C25616DE0A20A64004B6328 /* BaiduMapAPI_Map.framework */,
+				6F8FCFBE61CCFDAF8827CB5F5B6A00F9 /* BaiduMapAPI_Radar.framework */,
+				ABABF43BEA885365BA896FB465F73845 /* BaiduMapAPI_Search.framework */,
+				261D2485B526B87C9406024BF0736A6B /* BaiduMapAPI_Utils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3FA3F609DED53AEBA8E7CFECEDAB186 /* BaiduMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				C715454BC1A7A1E415D54F199E73007D /* Frameworks */,
+				56796AAF4F5802B6524EF0DDE24CB231 /* Resources */,
+			);
+			path = BaiduMapKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7353AC9096AD43114D01524FB8B8F535 /* Pods-陀螺仪Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E9BA04716165FF9DD99FED4C365195 /* Build configuration list for PBXNativeTarget "Pods-陀螺仪Demo" */;
+			buildPhases = (
+				306A3B5A35BDFBB9B77B0829DAF6027F /* Sources */,
+				343E7463DD51EBE7EFE3242F8E3AC9D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-陀螺仪Demo";
+			productName = "Pods-陀螺仪Demo";
+			productReference = 878D7B9D69AEF0D7D939A9810240FBA1 /* libPods-陀螺仪Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2AF51B2B7B8848B0E625164A90C5DC6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7353AC9096AD43114D01524FB8B8F535 /* Pods-陀螺仪Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306A3B5A35BDFBB9B77B0829DAF6027F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1342E4C5529000FDAE9CE7A76E382E4 /* Pods-陀螺仪Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4BC104DBACEA4CF7AF8C3134C8271AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BA5F6CC6D3B9C7FAFE212B5199D30A /* Pods-陀螺仪Demo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		532D85F6257405B0AFB25EC06014F8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1C464FFE1253B3B4BC31B6308AF6FA /* Pods-陀螺仪Demo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E9BA04716165FF9DD99FED4C365195 /* Build configuration list for PBXNativeTarget "Pods-陀螺仪Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532D85F6257405B0AFB25EC06014F8C4 /* Debug */,
+				4BC104DBACEA4CF7AF8C3134C8271AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
