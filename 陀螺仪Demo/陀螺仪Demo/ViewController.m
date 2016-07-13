@@ -131,11 +131,11 @@
 - (void)didUpdateUserHeading:(BMKUserLocation *)userLocation
 {
 //    [_mapView updateLocationData:userLocation];
-    NSLog(@"地磁北极:%.0f 真正北极:%.0f 偏移%.0f x:%.1f y:%.1f z:%.1f",userLocation.heading.magneticHeading,
+    NSLog(@"地磁北极:%.0f 真正北极:%.0f 偏移:%.0f x:%.1f y:%.1f z:%.1f",userLocation.heading.magneticHeading,
            userLocation.heading.trueHeading,
            userLocation.heading.headingAccuracy,
            userLocation.heading.x,userLocation.heading.y,userLocation.heading.z);
-    self.lbHeading.text = [NSString stringWithFormat:@"地磁北极:%.0f \n真正北极:%.0f \n偏移%.0f \nx:%.1f \ny:%.1f \nz:%.1f",userLocation.heading.magneticHeading,
+    self.lbHeading.text = [NSString stringWithFormat:@"地磁北极:%.0f \n真正北极:%.0f \n偏移:%.0f \nx:%.1f \ny:%.1f \nz:%.1f",userLocation.heading.magneticHeading,
                            userLocation.heading.trueHeading,
                            userLocation.heading.headingAccuracy,
                            userLocation.heading.x,userLocation.heading.y,userLocation.heading.z];
