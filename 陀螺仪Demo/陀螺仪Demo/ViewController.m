@@ -17,6 +17,8 @@
 @interface ViewController ()<AVCaptureVideoDataOutputSampleBufferDelegate,FINCameraDelagate,BMKLocationServiceDelegate,UIAccelerometerDelegate>{
     BMKLocationService* _locService;
     CMMotionManager *manager;
+    
+    float _previousY;
 }
 @property(nonatomic,strong)FINCamera * camera;
 
@@ -39,7 +41,8 @@
     //启动LocationService
     [_locService startUserLocationService];
     
-     [self imageimageimage];
+    _previousY = 0.14;
+    [self imageimageimage];
     
     
     
@@ -59,6 +62,17 @@
     }
     if (![manager isGyroActive] &&[manager isGyroAvailable]) {
         [manager startGyroUpdatesToQueue:[NSOperationQueue currentQueue] withHandler:^(CMGyroData *gyroData, NSError *error) {
+            NSLog(@"%f,%f",5*gyroData.rotationRate.y,5*gyroData.rotationRate.x);
+            
+            if (fabs(5*gyroData.rotationRate.y - _previousY) <0.02) {
+                NSLog(@"位移太小,作废");
+                return ;
+            }else {
+                NSLog(@"位移足够,不作废");
+            }
+            _previousY =5*gyroData.rotationRate.y;
+            
+            
             CGFloat rotationRateX =  imageView.center.x+5*gyroData.rotationRate.y;
             CGFloat rotationRateY = imageView.center.y+5*gyroData.rotationRate.x;
             if (rotationRateX > self.view.frame.size.width*3/2) {
