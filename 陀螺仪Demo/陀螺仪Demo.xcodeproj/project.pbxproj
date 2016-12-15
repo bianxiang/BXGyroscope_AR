@@ -16,6 +16,7 @@
 		00D51FD21D3600B5008564A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D51FD01D3600B5008564A5 /* Main.storyboard */; };
 		00D51FD41D3600B5008564A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D51FD31D3600B5008564A5 /* Assets.xcassets */; };
 		00D51FD71D3600B5008564A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D51FD51D3600B5008564A5 /* LaunchScreen.storyboard */; };
+		878BFB0C1E026AD800F91606 /* AR.mov in Resources */ = {isa = PBXBuildFile; fileRef = 878BFB0B1E026AD800F91606 /* AR.mov */; };
 		DCCC497B493B99FC092655FD /* libPods-陀螺仪Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2684F61C51B08B5447020C2 /* libPods-陀螺仪Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		00D51FD81D3600B5008564A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E541E75F3CD8629A0400C7 /* Pods-陀螺仪Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-陀螺仪Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-陀螺仪Demo/Pods-陀螺仪Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		365C858ECFD6EEF5329894E8 /* Pods-陀螺仪Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-陀螺仪Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-陀螺仪Demo/Pods-陀螺仪Demo.release.xcconfig"; sourceTree = "<group>"; };
+		878BFB0B1E026AD800F91606 /* AR.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = AR.mov; sourceTree = "<group>"; };
 		E2684F61C51B08B5447020C2 /* libPods-陀螺仪Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-陀螺仪Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 		00D51FC61D3600B5008564A5 /* 陀螺仪Demo */ = {
 			isa = PBXGroup;
 			children = (
+				878BFB0B1E026AD800F91606 /* AR.mov */,
 				007BAE291D36434B001DCCC6 /* 222.png */,
 				0039FEBA1D360B3A006FDCE7 /* cover.png */,
 				0039FEB61D360A29006FDCE7 /* FINCamera */,
@@ -186,6 +189,7 @@
 				00D51FD71D3600B5008564A5 /* LaunchScreen.storyboard in Resources */,
 				007BAE2A1D36434B001DCCC6 /* 222.png in Resources */,
 				00D51FD41D3600B5008564A5 /* Assets.xcassets in Resources */,
+				878BFB0C1E026AD800F91606 /* AR.mov in Resources */,
 				00D51FD21D3600B5008564A5 /* Main.storyboard in Resources */,
 				0039FEBB1D360B3A006FDCE7 /* cover.png in Resources */,
 			);
