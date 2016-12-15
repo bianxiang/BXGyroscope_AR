@@ -156,6 +156,7 @@
 				TargetAttributes = {
 					00D51FC31D3600B5008564A5 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DCBSKHZ2TB;
 					};
 				};
 			};
@@ -363,6 +364,7 @@
 			baseConfigurationReference = 18E541E75F3CD8629A0400C7 /* Pods-陀螺仪Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DCBSKHZ2TB;
 				INFOPLIST_FILE = "陀螺仪Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -376,6 +378,7 @@
 			baseConfigurationReference = 365C858ECFD6EEF5329894E8 /* Pods-陀螺仪Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DCBSKHZ2TB;
 				INFOPLIST_FILE = "陀螺仪Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
