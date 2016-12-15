@@ -9,4 +9,4 @@
 
 <!--![mov](https://github.com/bianxiang/BXRotationView/blob/master/BXRotationView/BXRotationView/BXRotationViewGIF.gif?raw=true)  -->
 
-[mov](https://github.com/bianxiang/BXGyroscope_AR/blob/master/BXGyroscope_AR/BXGyroscope_AR/AR.mov)
+[mov](https://github.com/bianxiang/BXGyroscope_AR/blob/master/陀螺仪Demo/陀螺仪Demo/AR.mov)
