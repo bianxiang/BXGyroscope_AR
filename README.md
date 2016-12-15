@@ -9,4 +9,4 @@
 
 <!--![mov](https://github.com/bianxiang/BXRotationView/blob/master/BXRotationView/BXRotationView/BXRotationViewGIF.gif?raw=true)  -->
 
-<iframe height=498 width=510 src="https://github.com/bianxiang/BXGyroscope_AR/blob/master/BXGyroscope_AR/BXGyroscope_AR/AR.mov?raw=true)">
+[mov](https://github.com/bianxiang/BXGyroscope_AR/blob/master/BXGyroscope_AR/BXGyroscope_AR/AR.mov?raw=true)
